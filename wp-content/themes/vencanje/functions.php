@@ -45,6 +45,9 @@ function vencanje_setup() {
 		'gornji' => __("Gornji meni", 'vencanje'),
 	) );
 
+
+	add_image_size( "zablog", 335, 210, true );
+
 	// Enable support for Post Formats.
 	add_theme_support( 'post-formats', array( 'aside', 'image', 'video', 'quote', 'link' ) );
 
@@ -66,26 +69,7 @@ function vencanje_setup() {
 endif; // vencanje_setup
 add_action( 'after_setup_theme', 'vencanje_setup' );
 
-/**
- * Register widget area.
- *
- * @link http://codex.wordpress.org/Function_Reference/register_sidebar
- */
-function vencanje_widgets_init() {
-	register_sidebar( array(
-		'name'          => __( 'Sidebar', 'vencanje' ),
-		'id'            => 'sidebar-1',
-		'description'   => '',
-		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
-		'after_widget'  => '</aside>',
-		'before_title'  => '<h1 class="widget-title">',
-		'after_title'   => '</h1>',
-	) );
 
-	
-
-}
-add_action( 'widgets_init', 'vencanje_widgets_init' );
 
 
 
@@ -107,6 +91,21 @@ function registruj_sidebars(){
 	'after_title'   => '</h3>' );
 
 	register_sidebar($argumenti);
+
+
+	$args = array(
+			'name'          => __( 'Sidebar', 'theme_text_domain' ),
+			'id'            => 'sidebar',
+			'description'   => 'To je sidebar onaj sa strane',
+			'class'         => '',
+			'before_widget' => '<li class="widget-container">',
+			'after_widget'  => '</li>',
+			'before_title'  => '<h2 class="widget-title">',
+			'after_title'   => '</h2>'
+	);
+	
+	register_sidebar( $args );
+	
 	
 }
 
@@ -254,3 +253,62 @@ function get_person($offset){
 	   endif;
 
 }
+
+
+// Register Custom Post Type
+function custom_post_type() {
+
+	$labels = array(
+		'name'                => _x( 'Svatovi', 'Svatovi', 'vencanje' ),
+		'singular_name'       => _x( 'Svat', 'Svat', 'vencanje' ),
+		'menu_name'           => __( 'Svatovi', 'vencanje' ),
+		'all_items'           => __( 'Svi svatovi', 'vencanje' ),
+		'view_item'           => __( 'Pogledaj svata', 'vencanje' ),
+		'add_new_item'        => __( 'Dodaj novog svata', 'vencanje' ),
+		'add_new'             => __( 'Dodaj novog', 'vencanje' ),
+		'edit_item'           => __( 'Promeni svata', 'vencanje' ),
+		'update_item'         => __( 'Izmeni svata', 'vencanje' ),
+		'search_items'        => __( 'Pretraga svatova', 'vencanje' ),
+		'not_found'           => __( 'Nije pronadjen', 'vencanje' ),
+		'not_found_in_trash'  => __( 'Nije pronadjen u djubretu', 'vencanje' ),
+	);
+	$args = array(
+		'label'               => __( 'svatovi', 'vencanje' ),
+		'description'         => __( 'Unos svatova', 'vencanje' ),
+		'labels'              => $labels,
+		'supports'            => array( 'thumbnail', 'title' ),
+	//	'taxonomies'          => array( 'category', 'post_tag' ),
+		'hierarchical'        => true,
+		'public'              => true,
+		'show_ui'             => true,
+		'show_in_menu'        => true,
+		'show_in_nav_menus'   => true,
+		'show_in_admin_bar'   => true,
+		'menu_position'       => 5,
+		//'menu_icon'           => '',
+		'can_export'          => true,
+		'has_archive'         => false,
+		'exclude_from_search' => true,
+		'publicly_queryable'  => true,
+		'capability_type'     => 'post',
+	);
+	register_post_type( 'svatovi', $args );
+
+}
+
+// Hook into the 'init' action
+add_action( 'init', 'custom_post_type', 0 );
+
+
+
+
+
+
+
+
+
+
+
+
+
+
