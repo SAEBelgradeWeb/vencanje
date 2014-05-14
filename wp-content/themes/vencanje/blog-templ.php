@@ -30,7 +30,10 @@ get_header();
 
                             <section class="content">
 
+			<?php 
 
+			 	_e("List of posts", "vencanje");
+			 ?>
 
 			<?php 
 			$args = array(

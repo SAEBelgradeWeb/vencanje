@@ -300,14 +300,41 @@ function custom_post_type() {
 add_action( 'init', 'custom_post_type', 0 );
 
 
+function convert_month_name($post){
+
+	$post_date = $post->post_date;
+	$first_pos = strpos($post_date, '-');
+	$post_date = substr($post_date, $first_pos+1, 2);
+	
+	switch ($month) {
+		case '01':
+			$result = 'January';
+			break;
+		case '04':
+			$result = 'April';
+			break;
+		case '05':
+			$result = 'May';
+			break;
+		default:
+			$result = 'whatever';
+			break;
+	}
+
+	return $result;
+}
 
 
+add_shortcode( 'srce' , "kreiraj_srce" );
+
+function kreiraj_srce( $atts, $content ){
+//	var_dump($content);
+	$velicina = $atts['velicina'];
 
 
-
-
-
-
+	$out = '<img width="'.$velicina.'" src="http://www.sherv.net/cm/emoticons/hearts/big-beating-heart.gif">'.$content.'<img width="'.$velicina.'" src="http://www.sherv.net/cm/emoticons/hearts/big-beating-heart.gif">';
+	return $out;
+}
 
 
 

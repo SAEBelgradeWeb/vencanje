@@ -1,0 +1,341 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Vencanje\n"
+"POT-Creation-Date: 2014-05-14 20:40+0100\n"
+"PO-Revision-Date: 2014-05-14 20:46+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: /Applications/MAMP/htdocs/wp0114/wp-content/themes/"
+"vencanje/\n"
+"Language: sr_RS\n"
+"X-Poedit-SearchPath-0: /Applications/MAMP/htdocs/wp0114/wp-content/themes/"
+"vencanje\n"
+
+#: /Applications/MAMP/htdocs/wp0114/wp-content/themes/vencanje/404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp0114/wp-content/themes/vencanje/404.php:19
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp0114/wp-content/themes/vencanje/404.php:27
+msgid "Most Used Categories"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp0114/wp-content/themes/vencanje/404.php:44
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp0114/wp-content/themes/vencanje/archive.php:26
+#, php-format
+msgid "Author: %s"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp0114/wp-content/themes/vencanje/archive.php:29
+#, php-format
+msgid "Day: %s"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp0114/wp-content/themes/vencanje/archive.php:32
+#, php-format
+msgid "Month: %s"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp0114/wp-content/themes/vencanje/archive.php:35
+#, php-format
+msgid "Year: %s"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp0114/wp-content/themes/vencanje/archive.php:38
+msgid "Asides"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp0114/wp-content/themes/vencanje/archive.php:41
+msgid "Galleries"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp0114/wp-content/themes/vencanje/archive.php:44
+msgid "Images"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp0114/wp-content/themes/vencanje/archive.php:47
+msgid "Videos"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp0114/wp-content/themes/vencanje/archive.php:50
+msgid "Quotes"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp0114/wp-content/themes/vencanje/archive.php:53
+msgid "Links"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp0114/wp-content/themes/vencanje/archive.php:56
+msgid "Statuses"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp0114/wp-content/themes/vencanje/archive.php:59
+msgid "Audios"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp0114/wp-content/themes/vencanje/archive.php:62
+msgid "Chats"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp0114/wp-content/themes/vencanje/archive.php:65
+msgid "Archives"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp0114/wp-content/themes/vencanje/blog-templ.php:35
+msgid "List of posts"
+msgstr "Lista postova"
+
+#: /Applications/MAMP/htdocs/wp0114/wp-content/themes/vencanje/comments.php:35
+#: /Applications/MAMP/htdocs/wp0114/wp-content/themes/vencanje/comments.php:52
+msgid "Comment navigation"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp0114/wp-content/themes/vencanje/comments.php:36
+#: /Applications/MAMP/htdocs/wp0114/wp-content/themes/vencanje/comments.php:53
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp0114/wp-content/themes/vencanje/comments.php:37
+#: /Applications/MAMP/htdocs/wp0114/wp-content/themes/vencanje/comments.php:54
+msgid "Newer Comments &rarr;"
+msgstr "Novi komentari"
+
+#: /Applications/MAMP/htdocs/wp0114/wp-content/themes/vencanje/comments.php:64
+msgid "Comments are closed."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp0114/wp-content/themes/vencanje/content-none.php:13
+msgid "Nothing Found"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp0114/wp-content/themes/vencanje/content-none.php:19
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp0114/wp-content/themes/vencanje/content-none.php:23
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp0114/wp-content/themes/vencanje/content-none.php:28
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp0114/wp-content/themes/vencanje/content-page.php:18
+#: /Applications/MAMP/htdocs/wp0114/wp-content/themes/vencanje/content-single.php:20
+#: /Applications/MAMP/htdocs/wp0114/wp-content/themes/vencanje/content.php:27
+msgid "Pages:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp0114/wp-content/themes/vencanje/content-page.php:23
+#: /Applications/MAMP/htdocs/wp0114/wp-content/themes/vencanje/content-single.php:60
+#: /Applications/MAMP/htdocs/wp0114/wp-content/themes/vencanje/content.php:61
+msgid "Edit"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp0114/wp-content/themes/vencanje/content-single.php:29
+#: /Applications/MAMP/htdocs/wp0114/wp-content/themes/vencanje/content-single.php:32
+#: /Applications/MAMP/htdocs/wp0114/wp-content/themes/vencanje/content.php:38
+#: /Applications/MAMP/htdocs/wp0114/wp-content/themes/vencanje/content.php:48
+msgid ", "
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp0114/wp-content/themes/vencanje/content-single.php:37
+#, php-format
+msgid ""
+"This entry was tagged %2$s. Bookmark the <a href=\"%3$s\" rel=\"bookmark"
+"\">permalink</a>."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp0114/wp-content/themes/vencanje/content-single.php:39
+#, php-format
+msgid "Bookmark the <a href=\"%3$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp0114/wp-content/themes/vencanje/content-single.php:45
+#, php-format
+msgid ""
+"This entry was posted in %1$s and tagged %2$s. Bookmark the <a href=\"%3$s\" "
+"rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp0114/wp-content/themes/vencanje/content-single.php:47
+#, php-format
+msgid ""
+"This entry was posted in %1$s. Bookmark the <a href=\"%3$s\" rel=\"bookmark"
+"\">permalink</a>."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp0114/wp-content/themes/vencanje/content.php:24
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp0114/wp-content/themes/vencanje/content.php:42
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp0114/wp-content/themes/vencanje/content.php:52
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp0114/wp-content/themes/vencanje/content.php:58
+msgid "Leave a comment"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp0114/wp-content/themes/vencanje/content.php:58
+msgid "1 Comment"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp0114/wp-content/themes/vencanje/content.php:58
+msgid "% Comments"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp0114/wp-content/themes/vencanje/functions.php:45
+msgid "Gornji meni"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp0114/wp-content/themes/vencanje/functions.php:84
+msgid "Home Ispod Slajdera"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp0114/wp-content/themes/vencanje/functions.php:97
+msgid "Sidebar"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp0114/wp-content/themes/vencanje/functions.php:161
+msgid "Add New Person"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp0114/wp-content/themes/vencanje/functions.php:162
+msgid "New Person"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp0114/wp-content/themes/vencanje/functions.php:163
+msgid "Edit Person"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp0114/wp-content/themes/vencanje/functions.php:164
+msgid "View Person"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp0114/wp-content/themes/vencanje/functions.php:165
+msgid "All Persons"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp0114/wp-content/themes/vencanje/functions.php:166
+msgid "Search Persons"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp0114/wp-content/themes/vencanje/functions.php:167
+msgid "Parent Persons:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp0114/wp-content/themes/vencanje/functions.php:168
+msgid "No persons found."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp0114/wp-content/themes/vencanje/functions.php:169
+msgid "No persons found in Trash."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp0114/wp-content/themes/vencanje/functions.php:264
+msgid "Svatovi"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp0114/wp-content/themes/vencanje/functions.php:265
+msgid "Svi svatovi"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp0114/wp-content/themes/vencanje/functions.php:266
+msgid "Pogledaj svata"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp0114/wp-content/themes/vencanje/functions.php:267
+msgid "Dodaj novog svata"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp0114/wp-content/themes/vencanje/functions.php:268
+msgid "Dodaj novog"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp0114/wp-content/themes/vencanje/functions.php:269
+msgid "Promeni svata"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp0114/wp-content/themes/vencanje/functions.php:270
+msgid "Izmeni svata"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp0114/wp-content/themes/vencanje/functions.php:271
+msgid "Pretraga svatova"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp0114/wp-content/themes/vencanje/functions.php:272
+msgid "Nije pronadjen"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp0114/wp-content/themes/vencanje/functions.php:273
+msgid "Nije pronadjen u djubretu"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp0114/wp-content/themes/vencanje/functions.php:276
+msgid "svatovi"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp0114/wp-content/themes/vencanje/functions.php:277
+msgid "Unos svatova"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp0114/wp-content/themes/vencanje/search.php:18
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp0114/wp-content/themes/vencanje/inc/extras.php:63
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp0114/wp-content/themes/vencanje/inc/template-tags.php:21
+msgid "Posts navigation"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp0114/wp-content/themes/vencanje/inc/template-tags.php:25
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp0114/wp-content/themes/vencanje/inc/template-tags.php:29
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp0114/wp-content/themes/vencanje/inc/template-tags.php:52
+msgid "Post navigation"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wp0114/wp-content/themes/vencanje/inc/template-tags.php:81
+#, php-format
+msgid ""
+"<span class=\"posted-on\">Posted on %1$s</span><span class=\"byline\"> by "
+"%2$s</span>"
+msgstr ""
